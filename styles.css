@@ -1,0 +1,45 @@
+body{
+    background-color: #fbf4e9;
+}
+header{
+    display: flex;
+    height:100px;
+}
+.logo{
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.logo > svg{
+    width : 100px;   
+    height: 44px;
+}
+.search{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    align-items: center;
+}
+form {
+    width: 290px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ebd2ac;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px;
+}
+
+form > input{
+    background-color: #ebd2ac;
+    border: none;
+    flex: 1;
+}
+.icon-search{
+    width: 25px;
+    height: 25px;
+   
+}
