@@ -1,0 +1,71 @@
+body {
+    font-family: "Josefin Slab";
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background-color: #263248;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    padding: 0.5em 4em;
+    gap: 3.5em;
+}
+
+header a {
+    color: #84c9c7;
+    text-decoration: none;
+}
+
+header>a {
+    color: #fa9d74;
+}
+
+nav {
+    flex: 1;
+}
+
+.toolbar {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.toolbar > li {
+    list-style-type: none;
+}
+
+.toolbar li :hover{
+    color:black;
+}
+#home {
+    display: block;
+    margin: 0;
+}
+
+#home p {
+    margin: 0;
+}
+
+#home>p {
+    /*flex: 0.3; */
+    padding : 0.2em 0;
+    background-color: #263248;
+    font-size: 195px;
+    color: #fa9d74;
+    font-weight: 700;
+    font-family: "Amatic SC";
+    text-align: center;
+}
+
+.today-title {
+    /*flex: 0.6;*/
+    font-size: 103px;
+    color: #84c9c7;
+    font-weight: 700;
+    font-family: "Josefin Slab";
+    text-align: center;
+    margin-bottom: 1em;
+}
