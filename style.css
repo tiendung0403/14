@@ -22,8 +22,8 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 1.4375rem;
-    padding: 0.875rem 7rem;
+    font-size: 1.150rem;
+    padding: 0.475rem 7rem;
     gap: 6.125rem;
 }
 
@@ -37,7 +37,7 @@ header>a {
 }
 
 .logo>svg {
-    width: 4vw;
+    width: 3rem;
     height: auto;
 }
 
