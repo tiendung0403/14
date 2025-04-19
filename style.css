@@ -1,90 +1,92 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: clamp(14px, 1.2vw, 18px);
-    padding: 0;
-    margin: 0;
+  font-size: clamp(14px, 1.2vw, 18px);
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    font-family: "Josefin Slab", serif;
-    background-color: #ffffff;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Slab", serif;
+  background-color: #ffffff;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
 }
 
 header {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 1.150rem;
-    padding: 0.475rem 7rem;
-    gap: 6.125rem;
-    background-color: #263248;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  padding: 0.475rem 7rem;
+  gap: 6.125rem;
+  background-color: #263248;
 }
 
 header a {
-    color: #84c9c7;
-    text-decoration: none;
+  color: #4fccc8;
+  text-decoration: none;
 }
 
-header>a {
-    color: #fa9d74;
+header > a {
+  color: #fa9d74;
 }
 
-.logo>svg {
-    width: 3rem;
-    height: auto;
+.logo > svg {
+  width: 2rem;
+  height: auto;
 }
 
 nav {
-    flex: 1;
+  flex: 1;
 }
 
 .toolbar {
-    display: flex;
-    padding: 0;
-    justify-content: space-evenly;
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
-.toolbar>li {
-    list-style-type: none;
+.toolbar > li {
+  list-style-type: none;
 }
 
 .toolbar li :hover {
-    color: black;
+  color: black;
 }
 
 #home {
-    display: block;
-    margin: 0;
+  display: block;
+  margin: 0;
 }
 
 #home p {
-    margin: 0;
+  margin: 0;
 }
 
-#home>p {
-    height: 40vh;
-    padding: 0.2em 0;
-    background-color: #263248;
-    font-size: 195px;
-    color: #fa9d74;
-    font-family: "Amatic SC", cursive;
+#home > p {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #263248;
+  font-size: 12.1875rem;
+  color: #fa9d74;
+  font-family: "Amatic SC", cursive;
 }
 
 .today-title {
-    height: 59.9vh;
-    font-size: 103px;
-    color: #84c9c7;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 85px;
+  height: 59.9vh;
+  font-size: 6.4375rem;
+  color: #4fccc8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5.3125rem;
 }
