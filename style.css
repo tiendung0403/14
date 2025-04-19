@@ -12,19 +12,21 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Josefin Slab", serif;
-    background-color: #263248;
+    background-color: #ffffff;
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
 
 header {
+    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     font-size: 1.150rem;
     padding: 0.475rem 7rem;
     gap: 6.125rem;
+    background-color: #263248;
 }
 
 header a {
@@ -69,7 +71,7 @@ nav {
 }
 
 #home>p {
-
+    height: 40vh;
     padding: 0.2em 0;
     background-color: #263248;
     font-size: 195px;
@@ -78,8 +80,11 @@ nav {
 }
 
 .today-title {
-    background-color: #ffffff;
+    height: 59.9vh;
     font-size: 103px;
     color: #84c9c7;
-    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 85px;
 }
